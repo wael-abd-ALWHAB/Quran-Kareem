@@ -1,0 +1,133 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: center;
+}
+
+header {
+  background: #006400;
+  color: white;
+  position: sticky;
+  top:0;
+  padding: 1em 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+button.back-button {
+  background: #004d00;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button.back-button:hover {
+  background: #003300;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.section {
+  background: white;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  width: 200px;
+  transition: background 0.3s;
+}
+
+.section:hover {
+  background: #e6e6e6;
+}
+
+.section h2 {
+  margin: 0 0 0.5em 0;
+}
+
+.section p {
+  margin: 0;
+  color: #555;
+}
+
+main {
+  padding: 2em;
+}
+
+.surah, .dhikr {
+  background: white;
+  margin: 1em auto;
+  padding: 0.5em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  max-width: 600px;
+}
+
+.surah:active {
+  background: #e6e6e6;
+}
+
+ .dhikr:active{
+   background: #e6e6e6;
+ }
+
+footer {
+  background: #006400;
+  padding: 0.5em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.audio-container {
+  display: none;
+  width:50%;
+  margin-right:auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  padding: 1em;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+audio {
+  width: 100%;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.bottom-nav button {
+  background: #004d00;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.3em;
+  transition: background 0.3s;
+}
+
+.bottom-nav button:hover {
+  background: #003300;
+}

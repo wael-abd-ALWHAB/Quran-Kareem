@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السور</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>السور</h1>
+    </header>
+    <main>
+        <div class="surah" onclick="playSurah('https://server8.mp3quran.net/afs/001.mp3')">
+            <h2>الفاتحة</h2>
+        </div>
+        <div class="surah" onclick="playSurah('audio/alyasin.mp3')">
+            <h2>البقرة</h2>
+        </div>
+
+        <div class="surah" onclick="playSurah('audio/alyasin.mp3')">
+            <h2>أل عمران</h2>
+        </div>
+
+        <div class="surah" onclick="playSurah('audio/alyasin.mp3')">
+            <h2>النساء</h2>
+        </div>
+        <!-- يمكنك إضافة المزيد من السور بنفس الطريقة -->
+    </main>
+    <div  id="audio-container" class="audio-container">
+        <audio id="audioPlayer" controls></audio>
+    </div>
+    <footer>
+        <nav class="bottom-nav">
+            <button onclick="location.href='index.html'">الرئيسية</button>
+            <button onclick="location.href='surahs.html'">السور</button>
+            <button onclick="location.href='adhkar.html'">الأذكار</button>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
