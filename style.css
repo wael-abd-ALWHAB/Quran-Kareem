@@ -96,8 +96,7 @@ footer {
 
 .audio-container {
   display: none;
-  width: 100vw;
-  height:100vh;
+  width: 200px;
   margin-right:auto;
   margin-left: auto;
   margin-bottom: 100px;
