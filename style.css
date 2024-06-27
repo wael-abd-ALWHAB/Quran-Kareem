@@ -97,11 +97,11 @@ footer {
 .audio-container {
   display: none;
   width: 200px;
+  height:70vh;
   margin-right:auto;
   margin-left: auto;
-  margin-bottom: 100px;
-  padding: 1em;
-  background: white;
+  margin-top:300px
+  background-image:url("https://www.almazarat.com/uploads/images/blog/261559_24-500-COPY-7.jpg") ;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
