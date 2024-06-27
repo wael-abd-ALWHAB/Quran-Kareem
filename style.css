@@ -93,11 +93,19 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
-.audio-container {
+.current-surah{
   display: none;
-  width: 200px;
-  height:70vh;
+  width: 100%;
+  height:100vh;
+  margin-right:auto;
+  margin-left: auto;
+  padding:2em;
+  background-image:url("https://www.almazarat.com/uploads/images/blog/261559_24-500-COPY-7.jpg");
+
+    
+}
+.audio-container {
+  width: 30%;
   margin-right:auto;
   margin-left: auto;
   margin-top:300px;
