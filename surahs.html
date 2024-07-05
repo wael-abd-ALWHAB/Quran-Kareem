@@ -88,11 +88,11 @@
     <script src="script.js"></script>
     <script>
         function showModal(audioSrc, surahName) {
-          const AudioPlayer document.getElementById('audio-player');
-          AudioPlayer.src = audioSrc;
+          const audioPlayer = document.getElementById('audio-player');
+          audioPlayer.src = audioSrc;
           document.getElementById('surah-name').textContent = surahName;
           document.getElementById('modal').style.display = "block";
-          AudioPlayer.play();
+          audioPlayer.play();
         }
     
         function closeModal() {
