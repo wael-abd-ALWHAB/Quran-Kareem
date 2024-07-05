@@ -7,28 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <style>
+        <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
     .modal {
       display: none;
       position: fixed;
       z-index: 1;
       left: 0;
-      top: 0;
-      width: 100vw;
-      height: 100vh;
+      top: 50px; /* مساحة الشريط العلوي */
+      width: 100%;
+      height: calc(100% - 100px); /* مساحة الشاشة - الشريط العلوي والسفلي */
       overflow: auto;
       background-color: rgba(0, 0, 0, 0.8);
     }
     
     .modal-content {
       background-color: #fefefe;
-      margin: 15% auto;
+      margin: auto;
       padding: 20px;
       border: 1px solid #888;
-      width: 80%;
+      width: 90%;
+      height: 90%;
       text-align: center;
       background-image: url('https://www.marefa.org/w/images/thumb/f/f3/Kaaba_mirror_edit_jj.jpg/800px-Kaaba_mirror_edit_jj.jpg');
       background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     
     .close {
@@ -43,6 +52,43 @@
       color: black;
       text-decoration: none;
       cursor: pointer;
+    }
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #333;
+      text-align: center;
+    }
+
+    .bottom-nav button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 15px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      z-index: 1;
+    }
+
+    main {
+      margin-top: 70px; /* لتجنب التداخل مع الشريط العلوي */
+      margin-bottom: 70px; /* لتجنب التداخل مع الشريط السفلي */
     }
 
     </style>
