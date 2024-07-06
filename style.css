@@ -126,6 +126,7 @@ audio {
   color: white;
   border: none;
   padding: 0.5em 1em;
+  height:100%
   cursor: pointer;
   border-radius: 5px;
   font-size: 1.3em;
