@@ -18,6 +18,7 @@ header {
 
 h1 {
   margin: 0;
+  font-weight:900;
 }
 
 button.back-button {
@@ -126,10 +127,9 @@ audio {
   color: white;
   border: none;
   padding: 0.5em 1em;
-  height:100%;
   cursor: pointer;
   border-radius: 5px;
-  font-size: 1.3em;
+  font-size: 1em;
   transition: background 0.3s;
 }
 
