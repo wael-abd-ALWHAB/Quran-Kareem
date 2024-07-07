@@ -21,24 +21,10 @@ h1 {
   font-weight:900;
 }
 
-button.back-button {
-  background: #004d00;
-  color: white;
-  border: none;
-  padding: 0.5em 1em;
-  margin: 1em 0;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 1em;
-}
-
-button.back-button:hover {
-  background: #003300;
-}
-
 .section-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap:wrap;
   margin-top: 2em;
 }
 
@@ -95,26 +81,7 @@ footer {
   bottom: 0;
   width: 100%;
 }
-.current-surah{
-  display: none;
-  margin-right:auto;
-  margin-left: auto;
-  background: #000;
 
-    
-}
-.audio-container {
-  width: 30%;
-  margin-right:auto;
-  margin-left: auto;
-  margin-top:300px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-audio {
-  width: 100%;
-}
 
 .bottom-nav {
   display: flex;
